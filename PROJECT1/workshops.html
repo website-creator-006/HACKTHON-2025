@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshops</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .sticker-heading {
+            font-size: 2.5rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 10px 20px;
+            color: white;
+            background: linear-gradient(45deg, #ff00cc, #3333ff, #00ff99);
+            border-radius: 15px;
+            box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.7);
+            display: inline-block;
+            transform: rotate(-3deg);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .sticker-heading:hover {
+            transform: rotate(0deg) scale(1.1);
+            box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.9);
+        }
+
+        .event-card {
+            background: linear-gradient(135deg, #4e54c8, #8f94fb);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            margin-bottom: 20px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .event-card:hover {
+            transform: scale(1.05);
+        }
+
+        .event-title {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        .event-date {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+
+        .register-btn {
+            background: linear-gradient(45deg, #ff416c, #ff4b2b);
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: white;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: all 0.3s ease-in-out;
+            cursor: pointer;
+        }
+
+        .register-btn:hover {
+            background: linear-gradient(45deg, #ff4b2b, #ff416c);
+            transform: scale(1.1);
+        }
+
+        footer {
+            background: linear-gradient(45deg, #2c3e50, #4ca1af);
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="sticker-heading">Workshops</h1>
+        
+        <div class="event-card">
+            <h2 class="event-title">Introduction to AI and ML</h2>
+            <p class="event-date">March 20, 2025</p>
+            <p>Join industry leaders discussing the latest in technology.</p>
+            <button class="register-btn">Register Here</button>
+        </div>
+
+        <div class="event-card">
+            <h2 class="event-title">Copyrights and Patent Filing</h2>
+            <p class="event-date">April 5, 2025</p>
+            <p>Learn about legal rights and protections for innovators.</p>
+            <button class="register-btn">Register Here</button>
+        </div>
+
+        <div class="event-card">
+            <h2 class="event-title">Will AI Save Human Lives in the Future?</h2>
+            <p class="event-date">April 25, 2025</p>
+            <p>Explore groundbreaking innovations in AI and its impact on humanity.</p>
+            <button class="register-btn">Register Here</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 College Name. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
